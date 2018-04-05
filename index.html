@@ -4,61 +4,104 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pieceofcake</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/minty/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Bakery(BS4)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
-    <style>
-        #logo-cupcake {
-            height:42px;
-            margin-right:10px;
-            margin-top:-3px;
-        }
-
-
-    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid"><a class="navbar-brand" href="#"><img src="assets/img/logo.png" id="logo-cupcake">Piece of Cake</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
+        <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/logo.png" id="logo">Piece of&nbsp;<strong>Cake</strong>&nbsp;</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">+Add your bakery</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">+ Add your bakery</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Sign up</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="#">Log in</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us</a></li>
                 </ul>
         </div>
         </div>
     </nav>
     <div id="promo">
         <div class="jumbotron">
-            <h1>Book Bakers Anywhere!</h1>
+            <h1>Book Bakers Anywhere!<br></h1>
             <p>The largest &amp; most trusted online community to hire a baker for your special event<br></p>
-            <p><a class="btn btn-primary" role="button" href="#">Book Online</a></p>
+            <p><a class="btn btn-info btn-lg" role="button" href="#">Book Online</a></p>
         </div>
     </div>
     <div class="container site-section" id="welcome">
         <h1>Welcome to Piece of Cake!<br></h1>
-        <p>When we opened our doors in 2018, we set out to be one of the best community of Bakers in New York. We had a simple mission: to create a place where wonderful delights are made from scratch by our world renowned bakers.<br></p>
+        <p>When we opened our doors in 2018, we set out to be one of the best community of Bakers in New York. We had a simple mission: to create a place where wonderful delights are made from scratch by our world renowned bakers.<br><br></p>
     </div>
-    <div class="container site-section" id="welcome">
-        <h1>Our Promise</h1>
-        <div class="row">
-            <div class="col-4 item"><i class="material-icons">accessibility</i>
-                <h2>Service</h2>
-                <p>We strive to be perfectionists for our customers</p>
+    <div class="dark-section">
+        <div class="container site-section" id="why">
+            <h1>Our Promise<br></h1>
+            <div class="row">
+                <div class="col-md-4 item"><i class="fa fa-birthday-cake"></i>
+                    <h2>Great Taste </h2>
+                    <p>Our Bakers will blow you away. They have spent many years perfecting their trade and its no accident they are for your choice.</p>
+                </div>
+                <div class="col-md-4 item"><i class="fa fa-heart"></i>
+                    <h2>Healthy &amp; Organic</h2>
+                    <p>We are committed to help people stay healthy while enjoying lifes goodies. You can rest assure whats going inside your body was kept in mind while making your delights</p>
+                </div>
+                <div class="col-md-4 item"><i class="material-icons">accessibility</i>
+                    <h2>Service</h2>
+                    <p>We strive to be perfectionists for our customers. Without you we do not exist. Plain and simple.</p>
+                </div>
             </div>
-            <div class="col"></div>
-            <div class="col"></div>
         </div>
-        <p></p>
     </div>
+    <div class="container site-section" id="gallery">
+        <h1>Gallery </h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card"><a href="assets/img/desert-1.jpg" target="_blank" data-lightbox="cakes"><img class="img-fluid" src="assets/img/desert-1.jpg"></a></div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"><a href="assets/img/desert-2.jpg" target="_blank" data-lightbox="cakes"><img class="img-fluid" src="assets/img/desert-2.jpg"></a></div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"><a href="assets/img/desert-3.jpg" target="_blank" data-lightbox="cakes"><img class="img-fluid" src="assets/img/desert-3.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 footer-navigation">
+                    <h3><a href="#">Piece of Cake</a></h3>
+                    <p class="links"><a href="#">Bakers&nbsp;</a><strong> · </strong><a href="#">Assortments&nbsp;</a><strong> · </strong><a href="#">Jobs</a><strong> </strong></p>
+                    <p class="company-name">Piece of Cake Inc. © 2018</p>
+                </div>
+                <div class="col-sm-6 col-md-4 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">Cupcake island</span> Paris, France</p>
+                    </div>
+                    <div><i class="fa fa-phone footer-contacts-icon"></i>
+                        <p class="footer-center-info email text-left"> +1 555 123456</p>
+                    </div>
+                    <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                        <p> <a href="#" target="_blank">support@pieceofcake.me</a></p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>About Piece of Cake Inc.</h4>
+                    <p>We exist to help find the right delight for your special event is our purpose.</p>
+                    <div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
